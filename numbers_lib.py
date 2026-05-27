@@ -26,3 +26,14 @@ def max_digit(number):
     print(maximum)
     return maximum
 max_digit(123)
+
+def min_digit(number):
+    numbers = []
+    while number > 0:
+        num = number % 10
+        numbers.append(num)
+        number //= 10
+    minimum = min(numbers)
+    print(minimum)
+    return minimum
+max_digit(123)
