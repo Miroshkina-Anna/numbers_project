@@ -46,3 +46,13 @@ def is_even(number):
     print(result)
     return result
 is_even(123)
+
+def multiply_digits(number):
+    prod = 1
+    while number > 0:
+        num = number % 10
+        prod*=num
+        number //= 10
+    print(prod)
+    return prod
+multiply_digits(123)
