@@ -15,3 +15,14 @@ def count_digits(number):
     print(count)
     return count
 count_digits(123)
+
+def max_digit(number):
+    numbers = []
+    while number > 0:
+        num = number % 10
+        numbers.append(num)
+        number //= 10
+    maximum = max(numbers)
+    print(maximum)
+    return maximum
+max_digit(123)
