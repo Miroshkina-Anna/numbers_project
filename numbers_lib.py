@@ -37,3 +37,12 @@ def min_digit(number):
     print(minimum)
     return minimum
 max_digit(123)
+
+def is_even(number):
+    if number % 2 == 0:
+        result = 'even'
+    else:
+        result = 'odd'
+    print(result)
+    return result
+is_even(123)
