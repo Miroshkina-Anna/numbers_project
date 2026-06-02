@@ -77,3 +77,12 @@ def is_palindrome(number):
         print("не является палиндромом")
         return "not palindrome"
 
+def count_even_digits(number):
+    count = 0
+    while number > 0:
+        if (number % 10) % 2 == 0:
+            count += 1
+        number //= 10
+    print(count)
+    return count
+count_even_digits(123)
