@@ -68,3 +68,12 @@ def reverse_number(number):
     return reversed_number
 reverse_number(123)
 
+def is_palindrome(number):
+    digit = int(str(number)[::-1])
+    if digit == number:
+        print("является палиндромом")
+        return "palindrome"
+    else:
+        print("не является палиндромом")
+        return "not palindrome"
+
