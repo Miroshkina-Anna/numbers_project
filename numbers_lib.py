@@ -63,17 +63,8 @@ def multiply_digits(number):
 multiply_digits(123)
 
 def reverse_number(number):
-    num = []
-    while number > 0:
-        digit = number % 10
-        num.append(str(digit))
-        number //= 10
-    result = "".join(num)
-    print(result)
-
-reverse_number(1245)
-
-
-
-
+    reversed_number = int(str(number)[::-1])
+    print(reversed_number)
+    return reversed_number
+reverse_number(123)
 
