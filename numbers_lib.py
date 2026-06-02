@@ -86,3 +86,13 @@ def count_even_digits(number):
     print(count)
     return count
 count_even_digits(123)
+
+def count_odd_digits(number):
+    count = 0
+    while number > 0:
+        if (number % 10) % 2 != 0:
+            count += 1
+        number //= 10
+    print(count)
+    return count
+count_odd_digits(123)
