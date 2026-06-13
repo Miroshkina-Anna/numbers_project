@@ -96,3 +96,9 @@ def count_odd_digits(number):
     print(count)
     return count
 count_odd_digits(123)
+
+def first_digit(number):
+    digit = int(str(number)[0])
+    print(digit)
+    return digit
+first_digit(123)
