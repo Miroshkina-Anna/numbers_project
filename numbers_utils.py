@@ -102,3 +102,9 @@ def first_digit(number):
     print(digit)
     return digit
 first_digit(123)
+
+def last_digit(number):
+    digit = int(str(number)[-1])
+    print(digit)
+    return digit
+last_digit(123)
