@@ -1,10 +1,10 @@
 def sum_digits(number):
-    sum = 0
+    sum_d = 0
     while number > 0:
-        sum += number % 10
+        sum_d += number % 10
         number //= 10
-    print(sum)
-    return sum
+    print(sum_d)
+    return sum_d
 
 sum_digits(123)
 
@@ -108,3 +108,4 @@ def last_digit(number):
     print(digit)
     return digit
 last_digit(123)
+
