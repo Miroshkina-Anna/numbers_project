@@ -108,3 +108,13 @@ def last_digit(number):
     print(digit)
     return digit
 last_digit(123)
+
+def sum_odd_digits(number):
+    sum = 0
+    while number > 0:
+        if (number % 2) != 0:
+            sum += number % 10
+        number //= 10
+    print(sum)
+    return sum
+sum_odd_digits(123)
