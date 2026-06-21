@@ -128,3 +128,8 @@ def sum_odd_digits(number):
     print(sum)
     return sum
 sum_odd_digits(123)
+
+def square_number(number):
+    return number ** 2
+print(square_number(11))
+
