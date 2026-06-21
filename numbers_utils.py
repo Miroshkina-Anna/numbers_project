@@ -133,3 +133,7 @@ def square_number(number):
     return number ** 2
 print(square_number(11))
 
+def cube_number(number):
+    return number ** 3
+print(cube_number(3))
+
