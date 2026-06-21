@@ -1,5 +1,6 @@
 # Numbers Project
 Проект содержит набор функций для работы с числами.
+Проект размещён на GitHub.
 ## Функции
 - sum_digits
 - count_digits
