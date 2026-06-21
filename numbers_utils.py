@@ -155,3 +155,9 @@ def is_positive(number):
         return False
 print(is_positive(123))
 
+def is_negative(number):
+    if number < 0:
+        return True
+    else:
+        return False
+print(is_negative(-123))
