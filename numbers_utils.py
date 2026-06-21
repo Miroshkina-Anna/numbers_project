@@ -137,3 +137,14 @@ def cube_number(number):
     return number ** 3
 print(cube_number(3))
 
+def average_digit(number):
+    sum = 0
+    count = 0
+    while number > 0:
+        sum += number % 10
+        count += 1
+        number //= 10
+    avg = sum / count
+    return avg
+print(average_digit(123))
+
