@@ -148,3 +148,10 @@ def average_digit(number):
     return avg
 print(average_digit(123))
 
+def is_positive(number):
+    if number > 0:
+        return True
+    else:
+        return False
+print(is_positive(123))
+
